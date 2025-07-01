@@ -29,7 +29,7 @@ func countPalindromicSubstrings(s string) int {
 }
 
 func main() {
-	input := "katak"
+	input := "aaa"
 	result := countPalindromicSubstrings(input)
 	fmt.Printf("Jumlah substring palindromik: %d\n", result)
 }

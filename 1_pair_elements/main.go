@@ -15,7 +15,7 @@ func minPairSum(nums []int) int {
 }
 
 func main() {
-	arr := []int{1, 4, 3, 2, 5, 6}
+	arr := []int{1, 4, 3, 2}
 	result := minPairSum(arr)
 	fmt.Println("Jumlah pasangan terkecil maksimal:", result)
 }
